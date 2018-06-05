@@ -1,0 +1,50 @@
+body {
+    position: relative;
+    margin:0;
+}
+
+@font-face {
+    font-family: "BigJohn";
+    src: url("../fonts/BigJohn.otf");
+}
+
+@font-face {
+    font-family: "SlimJoe";
+    src: url("../fonts/Slim+Joe.otf");
+}
+
+.hero {
+    height: 650px;
+    width: 100%;
+    background-image: url("../img/computer.png");
+    padding-top: 150px;
+}
+
+.main-header {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+}
+
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+}
+
+.main-navigation {
+    margin: 0;
+    padding: 0;
+}
+
+.hero h2 {
+    margin: 0;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
